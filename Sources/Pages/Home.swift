@@ -2,10 +2,9 @@ import Foundation
 import Ignite
 
 struct Home: StaticPage {
-    var title = "Home"
+    var title = "My Simple Calculator"
 
     var body: some HTML {
-        Text("Hello world!")
-            .font(.title1)
+        Include("calculator.xhtml")
     }
 }
