@@ -260,23 +260,23 @@ let buttonRows: [[CalcButton]] = [
 ]
 
 // ---------------------------------------------------------------------------
-// MARK: - Size constants  (1.5× the CSS pixel values from style.css)
+// MARK: - Size constants
 // ---------------------------------------------------------------------------
 
-// Button: CSS was 51 px → 1.5× ≈ 76 px
+// Button
 let BTN_SIZE:      Double = 76
-// Gap between buttons: CSS used ~10 px grid gap → 1.5× ≈ 15 px
+// Gap between buttons
 let BTN_GAP:       Double = 15
-// Calculator body padding: CSS was 20 px → 1.5× ≈ 30 px
+// Calculator body padding
 let BODY_PAD:      Double = 30
 // Gap between screen area and button grid
 let BODY_GAP:      Double = 18
-// Screen: CSS was 240×190 px → 1.5× ≈ 360×180 px (slightly flatter to match pic3)
+// Screen
 let SCREEN_W:      Double = 360
 let SCREEN_H:      Double = 160
-// Top border on screen (4 px in CSS → 6 px)
+// Top border on screen
 let BORDER_H:      Double = 6
-// Extra top margin above screen (matches style.css margin-top: 165 scaled)
+// Extra top margin above screen
 let SCREEN_MT:     Double = 28
 // Font sizes
 let BTN_FONT:      Double = 33   // standard button label
@@ -382,12 +382,12 @@ struct my_simple_calculatorApp: App {
 
     // ---- full calculator layout ----
     var body: some Scene {
-        WindowGroup("Calculator") {
+        WindowGroup("My Simple Calculator") {
             VStack(spacing: 0) {
 
                 // ── Screen area ─────────────────────────────────────────────
-                // Issue 3: dark-cyan top border strip
-                // Issue 4: rounded corners via .cornerRadius
+                // Dark-cyan top border strip
+                // Rounded corners via .cornerRadius
                 VStack(spacing: 0) {
 
                     // 4. Top border strip (darker cyan, matches style.css screen border)
@@ -408,7 +408,7 @@ struct my_simple_calculatorApp: App {
                     .frame(width: SCREEN_W, height: SCREEN_H)
                     .background(Color.screenBg)
                 }
-                // Issue 4: rounded corners on the screen area
+                // Rounded corners on the screen area
                 .cornerRadius(Int(SCREEN_RADIUS))
                 .padding(.top, Int(SCREEN_MT))
 
@@ -428,10 +428,10 @@ struct my_simple_calculatorApp: App {
             }
             .padding(Int(BODY_PAD))
             .frame(width: BODY_W)
-            // Issue 4: rounded corners on the calculator body
+            // Rounded corners on the calculator body
             .cornerRadius(Int(BODY_RADIUS))
             .background(Color.calcBody)
-            // Issue 5: keyboard input
+            // Keyboard input
             // .onKeyPress { key in handleKey(key) }
             .background(
                 TextField("", text: Binding(
@@ -453,9 +453,6 @@ struct my_simple_calculatorApp: App {
     }
 
     // ---- single button view ----
-    // Issue 1: BTN_SIZE is 1.5× the original CSS 51 px → 76 px
-    // Issue 2: .buttonStyle(.plain) removes GTK's native grey rectangle border
-    // Issue 4: .cornerRadius(BTN_RADIUS) makes each button a perfect circle
     func singleButton(_ btn: CalcButton) -> some View {
     let isActiveOp = btn.kind == .op && btn.action == activeOp
     let bgColor: Color = {
@@ -469,12 +466,12 @@ struct my_simple_calculatorApp: App {
     let fgColor: Color = btn.kind == .num ? .numText : .lightText
     let fontSize = btn.smallFont ? BTN_FONT_SM : BTN_FONT
 
-    // FIX: Using Text + onTapGesture completely removes GTK's grey background boxes
+    // Using Text + onTapGesture completely removes GTK's grey background boxes
     return Text(btn.label)
-        // Correct Type: size needs a Double, bold requires an explicit modifier call
+        // Ssize needs a Double, bold requires an explicit modifier call
         .font(.system(size: Double(fontSize))) 
         .foregroundColor(fgColor)
-        // Correct Type: Frame constraints in SwiftCrossUI accept structural Integers
+        // Frame constraints in SwiftCrossUI accept structural Integers
         .frame(width: Int(BTN_SIZE), height: Int(BTN_SIZE)) 
         .background(bgColor)
         .cornerRadius(Int(BTN_RADIUS))
