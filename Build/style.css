@@ -401,3 +401,14 @@ body {
     display: flex;
     height: 100%;
 }
+
+.nav-logo-down a {
+    color: white;
+    text-decoration: none; /* Removes the underline */
+}
+
+/* Optional: Changes the cursor to a pointer and slight fade on hover */
+.nav-logo-down a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
