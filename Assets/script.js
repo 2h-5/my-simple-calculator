@@ -500,3 +500,50 @@ window.addEventListener("keydown", function (e) {
 // Initial render
 render();
 window.addEventListener("resize", fitDisplay);
+
+
+// Wait for the DOM to fully load
+document.addEventListener('DOMContentLoaded', () => {
+    
+    // Elements
+    const themeBtn = document.getElementById('theme-btn');
+    const themeDropdown = document.getElementById('theme-dropdown');
+    const darkBtn = document.getElementById('theme-dark');
+    const lightBtn = document.getElementById('theme-light');
+    const guideBtn = document.getElementById('guide-btn');
+
+    // 1. Theme Dropdown Toggle
+    themeBtn.addEventListener('click', (e) => {
+        e.stopPropagation(); // Prevents immediate closing
+        themeDropdown.classList.toggle('show-dropdown');
+    });
+
+    // Close dropdown if user clicks anywhere else on the screen
+    window.addEventListener('click', () => {
+        if (themeDropdown.classList.contains('show-dropdown')) {
+            themeDropdown.classList.remove('show-dropdown');
+        }
+    });
+
+    // 2. Dark/Light Theme Switching
+    darkBtn.addEventListener('click', () => {
+        document.body.classList.add('dark-theme');
+    });
+
+    lightBtn.addEventListener('click', () => {
+        document.body.classList.remove('dark-theme');
+    });
+
+    // 3. Guide Pop-up Alert
+    guideBtn.addEventListener('click', () => {
+        alert("Hi, welcome to my simple calculator app.\nI would call it \"simple calculator game\" as it is quite fun to play with.\n\n\"Wait, what? Fun to play with?\"\n Yes, fun to play with! Here are some tips for you to explore:\n\n1. See what happens when you hold on the button you just pressed.\n2. See what happens when you clicking between different operation keys.\n3. See what happens when you click \"=\" consecutively.\n4. Try to explore on your keyboard to see what will happen.\n\n\nGood! You kept exploring and have just found the secret area! \nWell, here are some more notes for you:\n\nIf you are good at computers, you may have already find my source code based on the website.\nYou can go and check out various versions of my simple calculator app (\"game\") under \"Branches\". \nThere, you can also see why I chose to built this calculator app (\"game\"). \n\nYou have explored everything I have right now, see you in the future!\n—🆉");
+    });
+
+    // Automatically close dropdown menus if the user scrolls down the page
+    window.addEventListener('scroll', () => {
+    themeDropdown.classList.remove('show-dropdown');
+    langDropdown.classList.remove('show-dropdown');
+});
+
+
+});

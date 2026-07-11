@@ -8,9 +8,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Calculator</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" type="image/png" href="./src/FrameNo.png" />
 </head>
 
 <body>
+
+
+  <nav class="navbar">
+    <div class="nav-logo">🆉 Simple Calculator</div>
+    <div class="nav-links">
+        <div class="dropdown">
+            <button class="nav-btn" id="theme-btn">Theme</button>
+            <div class="dropdown-content" id="theme-dropdown">
+                <button id="theme-dark">Dark</button>
+                <button id="theme-light">Light</button>
+            </div>
+        </div>
+        <button class="nav-btn" id="guide-btn">Guide</button>
+      </div>
+  </nav>
+
 
   <!-- The device wraps the calculator; the transparent frame is laid on top -->
   <div class="device">
@@ -63,10 +80,16 @@
     </div>
 
     <!-- Decorative phone frame on top (no interaction) -->
-    <img class="frame" src="src/Frame.png" alt="" aria-hidden="true" />
+    <img class="frame" src="src/Frame.png" alt="" aria-hidden="true" />    
 
   </div>
 
+  <nav class="navbar-down">
+    <div class="nav-logo-down">Created by 🆉. Sūn</div>
+      <div class="nav-links-down">
+      </div>
+    </nav>
+  
   <script type="text/javascript" src="script.js"></script>
 
 </body>
