@@ -1,17 +1,27 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 6.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "IgniteStarter",
-    platforms: [.macOS(.v13)],
+    name: "my-simple-calculator",
     dependencies: [
-        .package(url: "https://github.com/twostraws/Ignite.git", branch: "main")
+        // SwiftCrossUI + GtkBackend — enables GTK-based GUI windows on Linux/WSL.
+        // The real repository is stackotter/swift-cross-ui.
+        .package(url: "https://github.com/stackotter/swift-cross-ui", from: "0.8.0")
     ],
     targets: [
         .executableTarget(
-            name: "IgniteStarter",
-            dependencies: ["Ignite"]),
-    ]
+            name: "my-simple-calculator",
+            dependencies: [
+                .product(name: "SwiftCrossUI", package: "swift-cross-ui"),
+                .product(name: "GtkBackend",   package: "swift-cross-ui")
+            ]
+        ),
+        .testTarget(
+            name: "my-simple-calculatorTests",
+            dependencies: ["my-simple-calculator"]
+        ),
+    ],
+    swiftLanguageModes: [.v6]
 )
