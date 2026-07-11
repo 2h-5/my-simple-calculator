@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://2h-5.github.io/my-simple-calculator/sitemap.xml

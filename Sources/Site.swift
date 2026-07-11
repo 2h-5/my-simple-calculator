@@ -17,7 +17,7 @@ struct IgniteWebsite {
 struct ExampleSite: Site {    
     var name = "My Simple Calculator"
     var titleSuffix = ""
-    var url = URL(static: "https://www.example.com")
+    var url = URL(static: "https://2h-5.github.io/my-simple-calculator")
     var builtInIconsEnabled = true
 
     var author = "Z. Sūn"
