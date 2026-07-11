@@ -545,5 +545,16 @@ document.addEventListener('DOMContentLoaded', () => {
     langDropdown.classList.remove('show-dropdown');
 });
 
+// Run code after the DOM fully loads
+document.addEventListener("DOMContentLoaded", () => {
+    // Select the logo element
+    const creatorLogo = document.querySelector(".nav-logo-down");
+
+    // Add a click event listener
+    creatorLogo.addEventListener("click", () => {
+        // Opens the link in a new browser tab
+        window.open("https://github.com/2h-5/my-simple-calculator", "_blank");
+    });
+});
 
 });
