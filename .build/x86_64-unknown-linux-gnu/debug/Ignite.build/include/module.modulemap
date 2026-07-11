@@ -1,0 +1,3 @@
+module Ignite {
+    header "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Ignite.build/include/Ignite-Swift.h"
+}

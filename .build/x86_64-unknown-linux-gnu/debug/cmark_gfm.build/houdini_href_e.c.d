@@ -1,0 +1,61 @@
+dependencies: \
+  /home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-cmark/src/houdini_href_e.c \
+  /usr/include/assert.h /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/stdc-predef.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/stddef.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/__stddef_size_t.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/__stddef_null.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/stdarg.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/string.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/strings.h \
+  /home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-cmark/src/include/houdini.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/stdint.h \
+  /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-cmark/src/include/cmark-gfm_config.h \
+  /home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-cmark/src/include/buffer.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/__stddef_header_macro.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/__stddef_wchar_t.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/__stddef_max_align_t.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/__stddef_offsetof.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/__stdarg_header_macro.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/__stdarg_va_list.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/__stdarg_va_arg.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/__stdarg___va_copy.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/__stdarg_va_copy.h \
+  /home/lenovo/.local/share/swiftly/toolchains/6.3.2/usr/lib/clang/21/include/limits.h \
+  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-cmark/src/include/cmark-gfm.h \
+  /home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-cmark/src/include/export.h \
+  /home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-cmark/src/include/cmark-gfm_version.h

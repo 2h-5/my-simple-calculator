@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/primary.swiftdeps"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/Sources/Layouts/MainLayout.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/MainLayout.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/MainLayout.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/MainLayout~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/MainLayout.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/MainLayout.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/Sources/Pages/Home.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/Home.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/Home.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/Home~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/Home.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/Home.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/Sources/Site.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/Site.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/Site.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/Site~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/Site.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteStarter.build/Site.dia"
+  }
+}

@@ -1,0 +1,495 @@
+{
+  "": {
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/primary.swiftdeps"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Base/ChildIndexPath.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ChildIndexPath.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ChildIndexPath.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ChildIndexPath~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ChildIndexPath.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ChildIndexPath.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Base/DirectiveArgument.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DirectiveArgument.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DirectiveArgument.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DirectiveArgument~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DirectiveArgument.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DirectiveArgument.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Base/Document.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Document.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Document.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Document~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Document.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Document.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Base/LiteralMarkup.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LiteralMarkup.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LiteralMarkup.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LiteralMarkup~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LiteralMarkup.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LiteralMarkup.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Base/Markup.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Markup.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Markup.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Markup~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Markup.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Markup.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Base/MarkupChildren.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupChildren.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupChildren.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupChildren~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupChildren.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupChildren.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Base/MarkupData.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupData.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupData.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupData~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupData.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupData.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Base/PlainTextConvertibleMarkup.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/PlainTextConvertibleMarkup.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/PlainTextConvertibleMarkup.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/PlainTextConvertibleMarkup~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/PlainTextConvertibleMarkup.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/PlainTextConvertibleMarkup.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Base/RawMarkup.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RawMarkup.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RawMarkup.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RawMarkup~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RawMarkup.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RawMarkup.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Block Container Blocks/BlockDirective.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockDirective.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockDirective.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockDirective~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockDirective.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockDirective.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Block Container Blocks/BlockQuote.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockQuote.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockQuote.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockQuote~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockQuote.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockQuote.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Block Container Blocks/CustomBlock.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CustomBlock.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CustomBlock.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CustomBlock~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CustomBlock.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CustomBlock.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Block Container Blocks/Doxygen Commands/DoxygenAbstract.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenAbstract.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenAbstract.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenAbstract~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenAbstract.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenAbstract.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Block Container Blocks/Doxygen Commands/DoxygenDiscussion.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenDiscussion.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenDiscussion.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenDiscussion~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenDiscussion.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenDiscussion.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Block Container Blocks/Doxygen Commands/DoxygenNote.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenNote.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenNote.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenNote~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenNote.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenNote.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Block Container Blocks/Doxygen Commands/DoxygenParameter.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenParameter.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenParameter.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenParameter~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenParameter.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenParameter.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Block Container Blocks/Doxygen Commands/DoxygenReturns.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenReturns.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenReturns.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenReturns~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenReturns.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/DoxygenReturns.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Block Container Blocks/ListItem.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ListItem.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ListItem.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ListItem~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ListItem.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ListItem.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Block Container Blocks/OrderedList.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/OrderedList.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/OrderedList.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/OrderedList~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/OrderedList.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/OrderedList.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Block Container Blocks/UnorderedList.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/UnorderedList.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/UnorderedList.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/UnorderedList~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/UnorderedList.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/UnorderedList.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Inline Container Blocks/Paragraph.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Paragraph.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Paragraph.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Paragraph~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Paragraph.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Paragraph.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Leaf Blocks/CodeBlock.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CodeBlock.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CodeBlock.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CodeBlock~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CodeBlock.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CodeBlock.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Leaf Blocks/HTMLBlock.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/HTMLBlock.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/HTMLBlock.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/HTMLBlock~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/HTMLBlock.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/HTMLBlock.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Leaf Blocks/Heading.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Heading.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Heading.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Heading~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Heading.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Heading.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Leaf Blocks/ThematicBreak.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ThematicBreak.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ThematicBreak.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ThematicBreak~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ThematicBreak.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ThematicBreak.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Tables/Table.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Table.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Table.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Table~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Table.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Table.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Tables/TableBody.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableBody.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableBody.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableBody~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableBody.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableBody.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Tables/TableCell.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableCell.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableCell.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableCell~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableCell.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableCell.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Tables/TableCellContainer.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableCellContainer.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableCellContainer.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableCellContainer~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableCellContainer.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableCellContainer.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Tables/TableHead.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableHead.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableHead.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableHead~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableHead.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableHead.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Block Nodes/Tables/TableRow.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableRow.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableRow.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableRow~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableRow.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/TableRow.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Infrastructure/Replacement.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Replacement.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Replacement.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Replacement~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Replacement.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Replacement.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Infrastructure/SourceLocation.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SourceLocation.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SourceLocation.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SourceLocation~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SourceLocation.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SourceLocation.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Inline Nodes/Inline Containers/Emphasis.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Emphasis.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Emphasis.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Emphasis~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Emphasis.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Emphasis.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Inline Nodes/Inline Containers/Image.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Image.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Image.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Image~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Image.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Image.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Inline Nodes/Inline Containers/InlineAttributes.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineAttributes.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineAttributes.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineAttributes~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineAttributes.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineAttributes.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Inline Nodes/Inline Containers/Link.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Link.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Link.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Link~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Link.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Link.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Inline Nodes/Inline Containers/Strikethrough.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Strikethrough.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Strikethrough.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Strikethrough~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Strikethrough.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Strikethrough.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Inline Nodes/Inline Containers/Strong.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Strong.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Strong.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Strong~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Strong.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Strong.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Inline Nodes/Inline Leaves/CustomInline.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CustomInline.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CustomInline.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CustomInline~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CustomInline.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CustomInline.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Inline Nodes/Inline Leaves/InlineCode.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineCode.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineCode.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineCode~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineCode.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineCode.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Inline Nodes/Inline Leaves/InlineHTML.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineHTML.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineHTML.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineHTML~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineHTML.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineHTML.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Inline Nodes/Inline Leaves/LineBreak.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LineBreak.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LineBreak.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LineBreak~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LineBreak.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LineBreak.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Inline Nodes/Inline Leaves/SoftBreak.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SoftBreak.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SoftBreak.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SoftBreak~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SoftBreak.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SoftBreak.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Inline Nodes/Inline Leaves/SymbolLink.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SymbolLink.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SymbolLink.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SymbolLink~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SymbolLink.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/SymbolLink.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Inline Nodes/Inline Leaves/Text.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Text.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Text.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Text~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Text.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Text.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Interpretive Nodes/Aside.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Aside.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Aside.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Aside~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Aside.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/Aside.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Parser/BlockDirectiveParser.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockDirectiveParser.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockDirectiveParser.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockDirectiveParser~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockDirectiveParser.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockDirectiveParser.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Parser/CommonMarkConverter.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CommonMarkConverter.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CommonMarkConverter.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CommonMarkConverter~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CommonMarkConverter.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CommonMarkConverter.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Parser/LazySplitLines.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LazySplitLines.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LazySplitLines.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LazySplitLines~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LazySplitLines.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/LazySplitLines.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Parser/ParseOptions.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ParseOptions.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ParseOptions.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ParseOptions~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ParseOptions.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ParseOptions.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Parser/RangeAdjuster.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RangeAdjuster.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RangeAdjuster.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RangeAdjuster~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RangeAdjuster.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RangeAdjuster.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Parser/RangerTracker.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RangerTracker.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RangerTracker.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RangerTracker~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RangerTracker.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/RangerTracker.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Rewriter/MarkupRewriter.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupRewriter.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupRewriter.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupRewriter~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupRewriter.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupRewriter.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Structural Restrictions/BasicBlockContainer.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BasicBlockContainer.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BasicBlockContainer.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BasicBlockContainer~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BasicBlockContainer.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BasicBlockContainer.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Structural Restrictions/BasicInlineContainer.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BasicInlineContainer.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BasicInlineContainer.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BasicInlineContainer~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BasicInlineContainer.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BasicInlineContainer.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Structural Restrictions/BlockContainer.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockContainer.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockContainer.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockContainer~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockContainer.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockContainer.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Structural Restrictions/BlockMarkup.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockMarkup.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockMarkup.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockMarkup~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockMarkup.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/BlockMarkup.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Structural Restrictions/InlineContainer.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineContainer.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineContainer.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineContainer~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineContainer.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineContainer.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Structural Restrictions/InlineMarkup.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineMarkup.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineMarkup.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineMarkup~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineMarkup.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/InlineMarkup.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Structural Restrictions/ListItemContainer.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ListItemContainer.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ListItemContainer.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ListItemContainer~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ListItemContainer.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/ListItemContainer.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Utility/AtomicCounter.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/AtomicCounter.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/AtomicCounter.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/AtomicCounter~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/AtomicCounter.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/AtomicCounter.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Utility/CharacterExtensions.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CharacterExtensions.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CharacterExtensions.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CharacterExtensions~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CharacterExtensions.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CharacterExtensions.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Utility/CollectionExtensions.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CollectionExtensions.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CollectionExtensions.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CollectionExtensions~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CollectionExtensions.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/CollectionExtensions.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Utility/StringExtensions.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/StringExtensions.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/StringExtensions.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/StringExtensions~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/StringExtensions.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/StringExtensions.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Visitor/MarkupVisitor.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupVisitor.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupVisitor.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupVisitor~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupVisitor.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupVisitor.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Walker/MarkupWalker.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupWalker.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupWalker.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupWalker~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupWalker.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupWalker.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Walker/Walkers/HTMLFormatter.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/HTMLFormatter.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/HTMLFormatter.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/HTMLFormatter~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/HTMLFormatter.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/HTMLFormatter.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Walker/Walkers/MarkupFormatter.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupFormatter.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupFormatter.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupFormatter~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupFormatter.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupFormatter.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-markdown/Sources/Markdown/Walker/Walkers/MarkupTreeDumper.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupTreeDumper.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupTreeDumper.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupTreeDumper~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupTreeDumper.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/Markdown.build/MarkupTreeDumper.dia"
+  }
+}

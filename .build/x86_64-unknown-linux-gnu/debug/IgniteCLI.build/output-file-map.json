@@ -1,0 +1,75 @@
+{
+  "": {
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/primary.swiftdeps"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/Ignite/Sources/IgniteCLI/BuildCommand.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/BuildCommand.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/BuildCommand.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/BuildCommand~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/BuildCommand.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/BuildCommand.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/Ignite/Sources/IgniteCLI/IgniteCLI.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/IgniteCLI.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/IgniteCLI.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/IgniteCLI~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/IgniteCLI.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/IgniteCLI.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/Ignite/Sources/IgniteCLI/NewCommand.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/NewCommand.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/NewCommand.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/NewCommand~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/NewCommand.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/NewCommand.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/Ignite/Sources/IgniteCLI/Process-Execute.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/Process-Execute.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/Process-Execute.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/Process-Execute~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/Process-Execute.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/Process-Execute.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/Ignite/Sources/IgniteCLI/QR Generation/Array2D.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/Array2D.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/Array2D.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/Array2D~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/Array2D.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/Array2D.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/Ignite/Sources/IgniteCLI/QR Generation/BoolMatrix.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/BoolMatrix.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/BoolMatrix.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/BoolMatrix~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/BoolMatrix.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/BoolMatrix.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/Ignite/Sources/IgniteCLI/QR Generation/ErrorCorrection.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/ErrorCorrection.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/ErrorCorrection.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/ErrorCorrection~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/ErrorCorrection.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/ErrorCorrection.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/Ignite/Sources/IgniteCLI/QR Generation/QRCode.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/QRCode.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/QRCode.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/QRCode~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/QRCode.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/QRCode.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/Ignite/Sources/IgniteCLI/QR Generation/QRCodeError.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/QRCodeError.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/QRCodeError.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/QRCodeError~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/QRCodeError.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/QRCodeError.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/Ignite/Sources/IgniteCLI/RunCommand.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/RunCommand.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/RunCommand.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/RunCommand~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/RunCommand.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/IgniteCLI.build/RunCommand.dia"
+  }
+}

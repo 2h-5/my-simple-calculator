@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/primary.swiftdeps"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/Extensions/ArgumentParser+Markdown.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/ArgumentParser+Markdown.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/ArgumentParser+Markdown.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/ArgumentParser+Markdown~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/ArgumentParser+Markdown.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/ArgumentParser+Markdown.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/Extensions/Process+SimpleAPI.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/Process+SimpleAPI.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/Process+SimpleAPI.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/Process+SimpleAPI~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/Process+SimpleAPI.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/Process+SimpleAPI.dia"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/checkouts/swift-argument-parser/Tools/generate-docc-reference/GenerateDoccReference.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/GenerateDoccReference.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/GenerateDoccReference.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/GenerateDoccReference~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/GenerateDoccReference.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/x86_64-unknown-linux-gnu/debug/generate_docc_reference-tool.build/GenerateDoccReference.dia"
+  }
+}

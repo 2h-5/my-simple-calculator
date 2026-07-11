@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/index-build/x86_64-unknown-linux-gnu/debug/ArgumentParserToolInfo-tool.build/primary.swiftdeps"
+  },
+  "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/index-build/checkouts/swift-argument-parser/Sources/ArgumentParserToolInfo/ToolInfo.swift": {
+    "dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/index-build/x86_64-unknown-linux-gnu/debug/ArgumentParserToolInfo-tool.build/ToolInfo.d",
+    "object": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/index-build/x86_64-unknown-linux-gnu/debug/ArgumentParserToolInfo-tool.build/ToolInfo.swift.o",
+    "swiftmodule": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/index-build/x86_64-unknown-linux-gnu/debug/ArgumentParserToolInfo-tool.build/ToolInfo~partial.swiftmodule",
+    "swift-dependencies": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/index-build/x86_64-unknown-linux-gnu/debug/ArgumentParserToolInfo-tool.build/ToolInfo.swiftdeps",
+    "diagnostics": "/home/lenovo/Calculator_Trials/my-simple-calculator/.build/index-build/x86_64-unknown-linux-gnu/debug/ArgumentParserToolInfo-tool.build/ToolInfo.dia"
+  }
+}
