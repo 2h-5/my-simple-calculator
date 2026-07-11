@@ -4,7 +4,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "my-simple-calculator",
+    name: "MySimpleCalculator",
+    platforms: [.macOS(.v13)],
     dependencies: [
         // SwiftCrossUI + GtkBackend — enables GTK-based GUI windows on Linux/WSL.
         // The real repository is stackotter/swift-cross-ui.
@@ -12,16 +13,7 @@ let package = Package(
     ],
     targets: [
         .executableTarget(
-            name: "my-simple-calculator",
-            dependencies: [
-                .product(name: "SwiftCrossUI", package: "swift-cross-ui"),
-                .product(name: "GtkBackend",   package: "swift-cross-ui")
-            ]
-        ),
-        .testTarget(
-            name: "my-simple-calculatorTests",
-            dependencies: ["my-simple-calculator"]
-        ),
-    ],
-    swiftLanguageModes: [.v6]
+            name: "MySimpleCalculator",
+            dependencies: ["Ignite"]),
+    ]
 )
