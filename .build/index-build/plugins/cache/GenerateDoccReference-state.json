@@ -63,12 +63,12 @@
     "WSL2_GUI_APPS_ENABLED" : "1",
     "WSLENV" : "VSCODE_WSL_EXT_LOCATION/up",
     "WSL_DISTRO_NAME" : "Ubuntu",
-    "WSL_INTEROP" : "/run/WSL/51006_interop",
+    "WSL_INTEROP" : "/run/WSL/525_interop",
     "XDG_DATA_DIRS" : "/usr/local/share:/usr/share:/var/lib/snapd/desktop",
     "XDG_RUNTIME_DIR" : "/run/user/1000",
     "_" : "/home/lenovo/.vscode-server/bin/fc3def6774c76082adf699d366f31a557ce5573f/node"
   },
-  "inputHash" : "9fd2c1f3d05d25f9916fbbc07c54410d647c245dfe40565bb3bde1f480f4d03e",
+  "inputHash" : "e64866995d71113f6c9e01a95763ab24c3f58b6404c5099814c34856cf12923d",
   "output" : "",
   "result" : {
     "exit" : {

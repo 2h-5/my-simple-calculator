@@ -64,12 +64,12 @@
     "WSL2_GUI_APPS_ENABLED" : "1",
     "WSLENV" : "VSCODE_WSL_EXT_LOCATION/up",
     "WSL_DISTRO_NAME" : "Ubuntu",
-    "WSL_INTEROP" : "/run/WSL/51006_interop",
+    "WSL_INTEROP" : "/run/WSL/525_interop",
     "XDG_DATA_DIRS" : "/usr/local/share:/usr/share:/var/lib/snapd/desktop",
     "XDG_RUNTIME_DIR" : "/run/user/1000",
     "_" : "/home/lenovo/.local/share/swiftly/bin/swift"
   },
-  "inputHash" : "dab0f00bb105e46edb6558646802576c42d8062f74685f664348d33fd419b547",
+  "inputHash" : "c97aacf94b368ad2054fdce400eeeaf285febe4e24a33c6d215442c95e0bffb1",
   "output" : "",
   "result" : {
     "exit" : {
