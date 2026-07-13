@@ -14,6 +14,7 @@ struct IgniteWebsite {
     }
 }
 
+// @author 🆉. Sūn
 struct ExampleSite: Site {    
     var name = "🆉 Simple Calculator"
     var titleSuffix = ""

@@ -1,6 +1,7 @@
 import Foundation
 import Ignite
 
+// @author 🆉. Sūn
 struct Home: StaticPage {
     var title = "🆉 Simple Calculator"
 
