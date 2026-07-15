@@ -30,7 +30,7 @@ Ah! Yeah, **new stuffs**! However, I am <u>**not** going to expose everything</u
 
 I bet you have already <u>explored</u> all the features <u>by playing my simple calculator app (*game*)</u>, so I am not going to cover that again...
 
-###### Well,I do not really want to be a harsh person, so let me <u>expose</u> some:
+###### Well, I do not really want to be a harsh person, so let me <u>expose</u> some:
 
 1. See what happens when you hold on the button you just pressed.
 2. See what happens when you clicking between different operation keys.
