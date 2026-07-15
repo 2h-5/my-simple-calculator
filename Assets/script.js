@@ -38,7 +38,7 @@ const SEG_MAP = {
   "7": ["a", "b", "c"],
   "8": ["a", "b", "c", "d", "e", "f", "g"],
   "9": ["a", "b", "c", "d", "f", "g"],
-  "-": ["g"],
+  "-": ["g"], /* @author 2h-5 */
   "E": ["a", "d", "e", "f", "g"],
   "r": ["e", "g"],
   "o": ["c", "d", "e", "g"],
@@ -57,7 +57,7 @@ function makeDigit(ch) {
   return d;
 }
 
-function makeDot() {
+function makeDot() { /* github.com/2h-5 */
   const cell = document.createElement("div");
   cell.className = "dot-cell";
   const dot = document.createElement("div");
@@ -89,7 +89,7 @@ function fitDisplay() {
   segLine.style.transform = "none";
   const avail = displayEl.clientWidth;
   const w = segLine.scrollWidth;
-  if (w > avail && w > 0) {
+  if (w > avail && w > 0) { /* © 🆉. Sūn 2026 All rights reserved */
     segLine.style.transform = "scale(" + avail / w + ")";
   }
 }
@@ -112,7 +112,7 @@ function compute(a, op, b) {
     case "+": return a + b;
     case "-": return a - b;
     case "*": return a * b;
-    case "/": return b === 0 ? Infinity : a / b;
+    case "/": return b === 0 ? Infinity : a / b; /* https://github.com/2h-5 */
   }
   return b;
 }
@@ -157,7 +157,7 @@ function highlightOp(op) {
 }
 
 function clearOpHighlight() {
-  keypad.querySelectorAll(".op.op-active").forEach(function (b) {
+  keypad.querySelectorAll(".op.op-active").forEach(function (b) { /* © 🆉. All rights reserved */
     b.classList.remove("op-active");
   });
 }
@@ -238,7 +238,7 @@ function pressOperator(op) {
   repeatReady = false;
 
   // An operator was just pressed with no new operand -> only switch operator.
-  if (awaitingOperand) {
+  if (awaitingOperand) { /* © Z. 2026 All rights reserved */
     const v = parseFloat(display);
     if (op === "+" || op === "-") {
       acc = v;
@@ -277,7 +277,7 @@ function pressOperator(op) {
     } else {
       acc = curTerm;
     }
-    const f = formatResult(acc);
+    const f = formatResult(acc); /* © Z. Sun 2026 All rights reserved */
     setDisplay(f);
     if (f === "Error") return;
     acc = parseFloat(f);
@@ -366,6 +366,7 @@ function pressParen() {
     // bracket (startNew stays as-is: false = use it, true = wait for a new one).
   } else {
     // Close the bracket: evaluate the inner expression.
+    /* © 🆉. Sūn 2026 All rights reserved */
     const entry = parseFloat(display);
     const curTerm = mulOp !== null ? compute(term, mulOp, entry) : entry;
     let inner = addOp !== null && acc !== null ? compute(acc, addOp, curTerm) : curTerm;
@@ -411,7 +412,7 @@ keypad.addEventListener("click", function (e) {
     case "decimal": inputDecimal(); break;
     case "negate":  negate();       break;
     case "delete":  del();          break;
-    case "clear":   clearAll();     break;
+    case "clear":   clearAll();     break; /* @author Z. Sūn */
     case "paren":   pressParen();   break;
     case "equals":  pressEquals();  break;
   }
@@ -468,7 +469,7 @@ window.addEventListener("keydown", function (e) {
       e.preventDefault();
       break;
     case "_":
-      negate();
+      negate(); /* © 🆉. Sūn 2026 All rights reserved */
       flash('[data-action="negate"]');
       e.preventDefault();
       break;
@@ -521,7 +522,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Close dropdown if user clicks anywhere else on the screen
     window.addEventListener('click', () => {
         if (themeDropdown.classList.contains('show-dropdown')) {
-            themeDropdown.classList.remove('show-dropdown');
+            themeDropdown.classList.remove('show-dropdown'); /* @author 2h-5 */
         }
     });
 
@@ -542,8 +543,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // Automatically close dropdown menus if the user scrolls down the page
     window.addEventListener('scroll', () => {
     themeDropdown.classList.remove('show-dropdown');
-    langDropdown.classList.remove('show-dropdown');
+    langDropdown.classList.remove('show-dropdown'); /* @author 🆉. Sūn */
 });
 
+// Run code after the DOM fully loads
+document.addEventListener("DOMContentLoaded", () => {
+    // Select the logo element
+    const creatorLogo = document.querySelector(".nav-logo-down");
+
+    // Add a click event listener
+    creatorLogo.addEventListener("click", () => {
+        // Opens the link in a new browser tab
+        window.open("https://github.com/2h-5/my-simple-calculator", "_blank");
+    }); /* @author 🆉. Sūn */
+});
 
 });
