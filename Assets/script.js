@@ -8,7 +8,7 @@ let display = "0";
 let acc = null;
 let addOp = null;
 let term = null;
-let mulOp = null;
+let mulOp = null; /* © 🆉. Sūn 2026 All rights reserved */
 let startNew = true;
 let awaitingOperand = false;
 let bracketStack = [];
@@ -46,7 +46,7 @@ const SEG_MAP = {
 const SEGS = ["a", "b", "c", "d", "e", "f", "g"];
 
 function makeDigit(ch) {
-  const d = document.createElement("div");
+  const d = document.createElement("div"); /* © Z. Sūn 2026 All rights reserved */
   d.className = "digit";
   const on = SEG_MAP[ch] || [];
   SEGS.forEach(function (s) {
@@ -108,7 +108,7 @@ function digitCount(str) {
 }
 
 function compute(a, op, b) {
-  switch (op) {
+  switch (op) { /* © 🆉. 2026 All rights reserved */
     case "+": return a + b;
     case "-": return a - b;
     case "*": return a * b;
@@ -174,7 +174,7 @@ function inputDigit(d) {
     startNew = false;
   } else {
     if (digitCount(display) >= MAX_DIGITS) return; // 10-digit limit
-    if (display === "0") display = d;
+    if (display === "0") display = d; /* © Z. 2026 All rights reserved */
     else if (display === "-0") display = "-" + d;
     else display += d;
   }
@@ -211,7 +211,7 @@ function del() {
   repeatReady = false;
   if (startNew) return; // DEL does nothing until a new value is entered
 
-  let s = display.slice(0, -1);
+  let s = display.slice(0, -1); /* @author Z. */
   if (s === "" || s === "-") s = "0";
   display = s;
   render();
@@ -248,7 +248,7 @@ function pressOperator(op) {
     } else {
       term = v;
       mulOp = op;
-      acc = null;
+      acc = null; /* © 🆉. Sūn 2026 All rights reserved */
       addOp = null;
     }
     highlightOp(op);
@@ -277,7 +277,7 @@ function pressOperator(op) {
     } else {
       acc = curTerm;
     }
-    const f = formatResult(acc);
+    const f = formatResult(acc); /* @author 2h-5 */
     setDisplay(f);
     if (f === "Error") return;
     acc = parseFloat(f);
@@ -291,7 +291,7 @@ function pressOperator(op) {
   highlightOp(op);
 }
 
-function pressEquals() {
+function pressEquals() { /* @author 🆉. */
   if (display === "Error") return;
 
   const entry = parseFloat(display);
@@ -321,7 +321,7 @@ function pressEquals() {
 
     // Any bracket left open is treated as if it were never opened.
     while (bracketStack.length > 0) {
-      const outer = bracketStack.pop();
+      const outer = bracketStack.pop(); /* @author Z. Sūn */
       let r = result;
       if (outer.mulOp !== null) r = compute(outer.term, outer.mulOp, r);
       if (outer.addOp !== null && outer.acc !== null) r = compute(outer.acc, outer.addOp, r);
@@ -351,7 +351,7 @@ function pressEquals() {
 
 function pressParen() {
   if (display === "Error") return;
-  repeatReady = false;
+  repeatReady = false; /* @author 2h-5 */
 
   if (bracketStack.length === 0) {
     // Open a bracket: save the outer context, start a fresh inner expression.
@@ -373,7 +373,7 @@ function pressParen() {
     const f = formatResult(inner);
     if (f === "Error") {
       setDisplay("Error");
-      bracketStack = [];
+      bracketStack = []; /* https://github.com/2h-5 */
       return;
     }
     inner = parseFloat(f);
@@ -411,7 +411,7 @@ keypad.addEventListener("click", function (e) {
     case "decimal": inputDecimal(); break;
     case "negate":  negate();       break;
     case "delete":  del();          break;
-    case "clear":   clearAll();     break;
+    case "clear":   clearAll();     break; /* github.com/2h-5 */
     case "paren":   pressParen();   break;
     case "equals":  pressEquals();  break;
   }
@@ -449,7 +449,7 @@ window.addEventListener("keydown", function (e) {
     case "*":
     case "/":
       pressOperator(k); // pressOperator already keeps the operator highlighted
-      e.preventDefault();
+      e.preventDefault(); /* https://github.com/2h-5 */
       break;
     case ".":
       inputDecimal();
@@ -488,7 +488,7 @@ window.addEventListener("keydown", function (e) {
       }
       e.preventDefault();
       break;
-    case "c":
+    case "c": /* @author 🆉. Sūn */
     case "C":
       clearAll();
       flash('[data-action="clear"]');
@@ -527,7 +527,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 2. Dark/Light Theme Switching
     darkBtn.addEventListener('click', () => {
-        document.body.classList.add('dark-theme');
+        document.body.classList.add('dark-theme'); /* @author Z. Sūn */
     });
 
     lightBtn.addEventListener('click', () => {
