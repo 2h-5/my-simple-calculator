@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let equalsPressed = false
   
     // Update display with current input
+    /* @author 🆉. Sūn */
     function updateDisplay() {
       display.textContent = currentInput
     }
@@ -41,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   
     // Handle operator button clicks
-    function handleOperator(op) {
+    function handleOperator(op) { /* © 🆉. Sūn 2026 All rights reserved */
       // If we already have an operation pending, calculate it first
       if (operation && !resetInput && !equalsPressed) {
         calculate()
@@ -49,12 +50,12 @@ document.addEventListener("DOMContentLoaded", () => {
   
       previousInput = currentInput
       operation = op
-      resetInput = true
+      resetInput = true /* https://github.com/2h-5 */
       equalsPressed = false
     }
   
     // Handle equals button click
-    function handleEquals() {
+    function handleEquals() { /* @author Z. Sūn */
       if (!operation) return
   
       calculate()
@@ -83,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
           result = current === 0 ? 0 : prev / current
           break
         default:
-          return
+          return /* @author 🆉. */
       }
   
       // Convert to string and limit display to 9 digits
@@ -95,7 +96,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Format the result to fit in the display
     function formatResult(number) {
       let result = number.toString()
-  
+
+      /* https://github.com/2h-5 */
       // If the number is too long, we need to format it
       if (result.replace(/[.-]/g, "").length > 9) {
         // For integers or numbers with few decimal places
@@ -119,7 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   
     // Add event listeners to all buttons
-    buttons.forEach((button) => {
+    buttons.forEach((button) => { /* https://github.com/2h-5 */
       button.addEventListener("click", () => {
         const value = button.getAttribute("data-value")
   
