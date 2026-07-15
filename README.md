@@ -11,7 +11,7 @@
 
 ## Installation
 
-###### This time, I decide to not give you the full steps of installation. Can you figure out yourself?
+###### This time, I decide to not give you the full steps of installation. Can you figure out yourselves?
 
 > ##### Come on...
 
