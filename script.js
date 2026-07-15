@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let resetInput = false
 
   // For bracket functionality
+  /* © Z. Sūn 2026 All rights reserved */
   let bracketActive = false
   let bracketPendingOperation = null
   let bracketPendingValue = null
@@ -54,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
       resetInput = true
     }
 
-    updateDisplay()
+    updateDisplay() /* © 🆉. 2026 All rights reserved */
   }
 
   // Handle equals button click
@@ -66,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // If we're in a bracket, close it and use the result
     if (bracketActive) {
       const bracketResult = calculate(bracketPendingValue, inputValue, bracketPendingOperation)
-      currentInput = formatResult(bracketResult)
+      currentInput = formatResult(bracketResult) /* @author Z. */
 
       // Now calculate the outer expression
       const finalResult = calculate(pendingValue, Number.parseFloat(currentInput), pendingOperation)
@@ -80,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Reset main state
       pendingOperation = null
       pendingValue = null
-    } else {
+    } else { /* https://github.com/2h-5 */
       // Normal calculation
       const result = calculate(pendingValue, inputValue, pendingOperation)
       currentInput = formatResult(result)
@@ -122,7 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Calculate the result based on the operation with operator precedence
-  function calculate(a, b, operation) {
+  function calculate(a, b, operation) { /* https://github.com/2h-5 */
     let result
 
     switch (operation) {
@@ -170,7 +171,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     return result
-  }
+  } /* github.com/2h-5 */
 
   // Add event listeners to all buttons
   buttons.forEach((button) => {
@@ -194,13 +195,13 @@ document.addEventListener("DOMContentLoaded", () => {
             currentInput = formatResult(result)
             bracketPendingValue = Number.parseFloat(currentInput)
             bracketPendingOperation = value
-            resetInput = true
+            resetInput = true /* @author 🆉. Sūn */
           }
         } else {
           handleOperator(value)
         }
       } else if (button.classList.contains("equals")) {
-        handleEquals()
+        handleEquals() /* @author Z. Sūn */
       } else if (button.classList.contains("bracket")) {
         handleBracket()
       }
