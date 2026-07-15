@@ -4,7 +4,8 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
   }
-  
+
+/* © 🆉. Sūn 2026 All rights reserved */
   body {
     display: flex;
     justify-content: center;
@@ -19,7 +20,7 @@
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    border: 2px solid #555555;
+    border: 2px solid #555555; /* @author Z. Sūn */
   }
   
   .display {
@@ -34,7 +35,7 @@
     color: black;
     font-size: 36px;
     height: 45px;
-    text-align: right;
+    text-align: right; /* © 🆉. Sūn 2026 All rights reserved */
     overflow: hidden;
   }
   
@@ -42,9 +43,9 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-  }
+  } /* @author github.com/2h-5 */
   
-  .row {
+  .row { /* @author Z. */
     display: flex;
     gap: 15px;
   }
@@ -60,7 +61,7 @@
     background-color: #d0d0d0;
     color: black;
     border-radius: 5px;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s; /* @author github.com/2h-5 */
     min-width: 60px;
     min-height: 60px;
   }
