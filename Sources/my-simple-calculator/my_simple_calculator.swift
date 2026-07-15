@@ -26,7 +26,7 @@ extension Color {
 struct CalcState {
 
     var display      = "0"
-    var startNew     = true
+    var startNew     = true // © 🆉. Sūn 2026 All rights reserved
     var awaitingOp   = false
     var acc:    Double? = nil
     var addOp:  String? = nil
@@ -58,7 +58,7 @@ struct CalcState {
         }
     }
 
-    func formatResult(_ num: Double) -> String {
+    func formatResult(_ num: Double) -> String { // © Z. Sūn 2026 All rights reserved
         if !num.isFinite             { return "Error" }
         if abs(num) > 9_999_999_999 { return "Error" }
         if num == Double(Int(num))   { return String(Int(num)) }
@@ -167,7 +167,7 @@ struct CalcState {
         guard display != "Error" else { return }
         let entry      = Double(display) ?? 0
         let hasPending = addOp != nil || mulOp != nil || !bracketStack.isEmpty
-        var result: Double
+        var result: Double // © Z. 2026 All rights reserved
 
         if hasPending {
             let curTerm = (mulOp != nil && term != nil) ? compute(term!, mulOp!, entry) : entry
@@ -207,7 +207,7 @@ struct CalcState {
             inner = Double(f) ?? inner
             let frame = bracketStack.removeLast()
             acc = frame.acc; addOp = frame.addOp; term = frame.term; mulOp = frame.mulOp
-            display = f; startNew = true; awaitingOp = false
+            display = f; startNew = true; awaitingOp = false // © 🆉. 2026 All rights reserved
         }
     }
 }
@@ -220,7 +220,7 @@ enum BtnKind { case num, fn, op, eq }
 
 struct CalcButton: Identifiable {
     let id: String
-    let label: String
+    let label: String // @author 2h-5
     let action: String
     let kind: BtnKind
     var smallFont: Bool = false
@@ -236,7 +236,7 @@ let buttonRows: [[CalcButton]] = [
     [
         CalcButton(id: "7",   label: "7", action: "7", kind: .num),
         CalcButton(id: "8",   label: "8", action: "8", kind: .num),
-        CalcButton(id: "9",   label: "9", action: "9", kind: .num),
+        CalcButton(id: "9",   label: "9", action: "9", kind: .num), // https://github.com/2h-5
         CalcButton(id: "mul", label: "\u{00D7}", action: "*", kind: .op),
     ],
     [
@@ -268,7 +268,7 @@ let BTN_SIZE:      Double = 76
 // Gap between buttons
 let BTN_GAP:       Double = 15
 // Calculator body padding
-let BODY_PAD:      Double = 30
+let BODY_PAD:      Double = 30 // github.com/2h-5
 // Gap between screen area and button grid
 let BODY_GAP:      Double = 18
 // Screen
@@ -300,7 +300,7 @@ struct my_simple_calculatorApp: App {
     @State private var hiddenKeyInput: String = ""
 
     typealias Backend = GtkBackend
-    let identifier = "com.example.calculator"
+    let identifier = "com.example.calculator" // https://github.com/2h-5
 
     @State var calc     = CalcState()
     @State var activeOp: String? = nil
@@ -318,7 +318,7 @@ struct my_simple_calculatorApp: App {
         case "+/−":
             calc.negate()
         case ".":
-            calc.inputDecimal()
+            calc.inputDecimal() // @author 2h-5
         case "=":
             calc.pressEquals()
             activeOp = nil
@@ -342,7 +342,7 @@ struct my_simple_calculatorApp: App {
         // Number-pad digits
         case "KP_0": calc.inputDigit("0"); activeOp = nil
         case "KP_1": calc.inputDigit("1"); activeOp = nil
-        case "KP_2": calc.inputDigit("2"); activeOp = nil
+        case "KP_2": calc.inputDigit("2"); activeOp = nil // @author 🆉. Sūn
         case "KP_3": calc.inputDigit("3"); activeOp = nil
         case "KP_4": calc.inputDigit("4"); activeOp = nil
         case "KP_5": calc.inputDigit("5"); activeOp = nil
@@ -360,7 +360,7 @@ struct my_simple_calculatorApp: App {
             calc.inputDecimal()
         // Equals / Enter
         case "=", "Enter", "equal", "KP_Equal":
-            calc.pressEquals(); activeOp = nil
+            calc.pressEquals(); activeOp = nil // @author 2h-5
         // Backspace = DEL
         case "d", "D", "BackSpace":
             calc.del()
@@ -388,7 +388,7 @@ struct my_simple_calculatorApp: App {
                 // ── Screen area ─────────────────────────────────────────────
                 // Dark-cyan top border strip
                 // Rounded corners via .cornerRadius
-                VStack(spacing: 0) {
+                VStack(spacing: 0) { // @author Z. Sūn
 
                     // 4. Top border strip (darker cyan, matches style.css screen border)
                     HStack {
@@ -440,7 +440,7 @@ struct my_simple_calculatorApp: App {
                         self.hiddenKeyInput = newValue
                         if !newValue.isEmpty {
                             // Automatically triggers your math routing layout mapping
-                            self.handleKey(newValue)
+                            self.handleKey(newValue) // @author 🆉.
                             self.hiddenKeyInput = "" // Instantly flush to catch subsequent presses
                         }
                     }
@@ -473,7 +473,7 @@ struct my_simple_calculatorApp: App {
         .foregroundColor(fgColor)
         // Frame constraints in SwiftCrossUI accept structural Integers
         .frame(width: Int(BTN_SIZE), height: Int(BTN_SIZE)) 
-        .background(bgColor)
+        .background(bgColor) // @author Z.
         .cornerRadius(Int(BTN_RADIUS))
         .onTapGesture {
             press(btn.action)
