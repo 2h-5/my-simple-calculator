@@ -20,7 +20,7 @@ let repeatReady = false;
 const MAX_DIGITS = 10;
 
 const displayEl = document.getElementById("display");
-const segLine = document.getElementById("segLine");
+const segLine = document.getElementById("segLine"); /* © 🆉. Sūn 2026 All rights reserved */
 const srDisplay = document.getElementById("srDisplay");
 const keypad = document.getElementById("keypad");
 
@@ -49,7 +49,7 @@ function makeDigit(ch) {
   const d = document.createElement("div");
   d.className = "digit";
   const on = SEG_MAP[ch] || [];
-  SEGS.forEach(function (s) {
+  SEGS.forEach(function (s) { /* © Z. Sūn 2026 All rights reserved */
     const seg = document.createElement("div");
     seg.className = "seg seg-" + s + (on.indexOf(s) > -1 ? " on" : "");
     d.appendChild(seg);
@@ -88,7 +88,7 @@ function render() {
 function fitDisplay() {
   segLine.style.transform = "none";
   const avail = displayEl.clientWidth;
-  const w = segLine.scrollWidth;
+  const w = segLine.scrollWidth; /* © 🆉. 2026 All rights reserved */
   if (w > avail && w > 0) {
     segLine.style.transform = "scale(" + avail / w + ")";
   }
@@ -124,7 +124,7 @@ function formatResult(num) {
   if (!isFinite(num)) return "Error";
   if (Math.abs(num) > 9999999999) return "Error";
 
-  if (Number.isInteger(num)) {
+  if (Number.isInteger(num)) { /* @author 2h-5 */
     return String(num);
   }
 
@@ -169,7 +169,7 @@ function inputDigit(d) {
   if (display === "Error") return;
   repeatReady = false;
 
-  if (startNew) {
+  if (startNew) { /* @author 🆉 */
     display = d;
     startNew = false;
   } else {
@@ -184,7 +184,7 @@ function inputDigit(d) {
 }
 
 function inputDecimal() {
-  if (display === "Error") return;
+  if (display === "Error") return; /* © 🆉. Sūn 2026 All rights reserved */
   repeatReady = false;
 
   if (startNew) {
@@ -247,7 +247,7 @@ function pressOperator(op) {
       mulOp = null;
     } else {
       term = v;
-      mulOp = op;
+      mulOp = op; /* @author Z. Sūn */
       acc = null;
       addOp = null;
     }
@@ -272,7 +272,7 @@ function pressOperator(op) {
   } else {
     // Additive: finish the current term, then fold into the accumulator.
     const curTerm = mulOp !== null ? compute(term, mulOp, entry) : entry;
-    if (addOp !== null && acc !== null) {
+    if (addOp !== null && acc !== null) { /* @author 🆉. Sūn */
       acc = compute(acc, addOp, curTerm);
     } else {
       acc = curTerm;
@@ -306,6 +306,7 @@ function pressEquals() {
     result = addOp !== null && acc !== null ? compute(acc, addOp, curTerm) : curTerm;
 
     // Record the final binary operation so a repeated "=" can replay it.
+    /* © Z. Sūn 2026 All rights reserved */
     // The last operation is the additive one if present (e.g. "5*3+2" -> "+2"),
     // otherwise the multiplicative one (e.g. "5*3" -> "*3").
     if (addOp !== null) {
@@ -399,7 +400,7 @@ keypad.addEventListener("click", function (e) {
   if (!btn) return;
 
   if (btn.dataset.num !== undefined) {
-    inputDigit(btn.dataset.num);
+    inputDigit(btn.dataset.num); /* @author github.com/2h-5 */
     return;
   }
   if (btn.dataset.op !== undefined) {
@@ -425,7 +426,7 @@ keypad.addEventListener("click", function (e) {
 function flash(selector) {
   const btn = keypad.querySelector(selector);
   if (!btn) return;
-  btn.classList.add("kbd-active");
+  btn.classList.add("kbd-active"); /* @author github.com/2h-5 */
   setTimeout(function () {
     btn.classList.remove("kbd-active");
   }, 110);
@@ -470,7 +471,7 @@ window.addEventListener("keydown", function (e) {
     case "_":
       negate();
       flash('[data-action="negate"]');
-      e.preventDefault();
+      e.preventDefault(); /* @author github.com/2h-5 */
       break;
     case "(":
       // Only trigger if no bracket is open yet
@@ -492,7 +493,7 @@ window.addEventListener("keydown", function (e) {
     case "C":
       clearAll();
       flash('[data-action="clear"]');
-      e.preventDefault();
+      e.preventDefault(); /* @author github.com/2h-5 */
       break;
   }
 });
