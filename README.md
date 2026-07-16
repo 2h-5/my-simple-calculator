@@ -28,7 +28,7 @@ Oh, really? Okay, since I am too tired on writing *such-a-long* instruction, but
 
 This is the **first time** I tried to build a frontend app myself from scratch, but surprisingly, it is not that hard to implement a frontend once you have your source codes ready.
 
-##### And it is also the first time I tried to build a frontend app myself using WSL to run something that is not compatible to Windows.
+##### It is also the first time I tried to build a frontend app myself using WSL to run something that is not compatible to Windows, and probably the last time I guess...?
 
 ###### Now, I just wish if I can traverse back to when I took the "HCI design" course, and hand this product in instead of what I had previously, possibly I can get a 100% in that assignment instead...
 
